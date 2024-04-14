@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/college-management-system/static/css/main.aae27748.css",
+    "main.js": "/college-management-system/static/js/main.de73ff2f.js",
+    "index.html": "/college-management-system/index.html",
+    "main.aae27748.css.map": "/college-management-system/static/css/main.aae27748.css.map",
+    "main.de73ff2f.js.map": "/college-management-system/static/js/main.de73ff2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aae27748.css",
+    "static/js/main.de73ff2f.js"
+  ]
+}
