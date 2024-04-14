@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.contentDiv {
+    background-image: linear-gradient(rgba(39, 38, 38, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 470px;
+    padding-top: 160px;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.contentDiv h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.contentDiv .about-us {
+    color: lightcoral;
+}
+
+.contentDiv p .home-section {
+    color: white;
+    text-decoration: none;
+}
+
+.contentDiv p i {
+    font-size: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.secondDivv {
+    display: flex;
+    gap: 4%;
+    margin-top: 70px;
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+
+.secondDivv .about-picture {
+    box-shadow: 2px 4px 5px 5px grey;
+}
+
+.secondDivv .contents {
+    font-family: 'Poppins', sans-serif;
+    padding-right: 20px;
+}
+
+.secondDivv .contents p {
+    padding-top: 20px;
+}
+.mission{
+    display: flex;
+    gap: 2%;
+    margin-top: 5px;
+}
+.mission-icon i{
+    border: 2px solid rgb(54, 54, 146);
+    padding: 10px;
+    border-radius: 50%;
+    padding-top: 10px;
+    height: 50px;
+    color: rgb(54, 54, 146);
+}
+.mission-icon i:hover{
+     background-color:rgb(54, 54, 146);
+     color: white;
+}
+.mission-icon img{
+    margin-top: 2px;
+}

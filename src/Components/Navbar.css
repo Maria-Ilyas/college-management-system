@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.navbarDiv {
+    background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54043.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 30%;
+}
+
+.logoDiv {
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.List {
+    margin-top: 30px;
+}
+
+.List ul .links {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 10px;
+}
+
+.List ul .links:hover {
+    color: lightcoral;
+    border-bottom: 2px solid lightcoral;
+}

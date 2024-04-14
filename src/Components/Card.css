@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.cards-div {
+      display: flex;
+      margin-left: 20px;
+      width: 400px;
+      height: 160px;
+      margin-top: 50px;
+      font-family: 'Poppins', sans-serif;
+      border-right: 5px solid rgb(223, 154, 145);
+      background-color: rgb(236, 228, 228);
+      border-radius: 20px;
+}
+
+.cards-div:hover {
+      transform: scale(1.03);
+      /* background-color: lightpink; */
+}
+
+.cards-div i {
+      padding-left: 30px;
+      padding-top: 50px;
+      font-size: 30px;
+}
+
+.cards-div .subject {
+      padding-left: 40px;
+      color: black;
+      padding-right: 10px;
+}
+
+.subject p {
+      padding-top: 15px;
+}
+
+.container {
+      background-image: url("https://static.vecteezy.com/system/resources/previews/021/433/265/non_2x/background-technology-city-in-lines-dark-blue-gradient-background-smart-city-technology-that-gradually-comes-to-manage-the-system-to-allow-business-within-the-city-to-grow-and-expand-vector.jpg");
+      height: 100vh;
+      padding-top: 60px;
+      padding-left: 500px;
+}
+
+.box {
+      background-color: white;
+      width: 400px;
+      height: 490px;
+}
+
+.logg {
+      height: 400px;
+      margin-top: 30px;
+}
+
+.box h2 {
+      text-align: center;
+      padding-top: 30px;
+      font-family: 'Poppins', sans-serif;
+      color: rgb(13, 53, 56);
+      padding-bottom: 10px;
+}
+
+.box h5 {
+      margin-left: 200px;
+      font-family: 'Poppins', sans-serif;
+      color: rgb(13, 53, 56);
+      font-size: 16px;
+      letter-spacing: 1px;
+      border-bottom: 2px solid rgb(13, 53, 56);
+}
+
+.input-div {
+      margin-left: 50px;
+      margin-top: 20px;
+      padding: 15px;
+      width: 300px;
+      background-color: rgb(224, 221, 221);
+}
+
+.input-div input {
+      outline: none;
+      border: none;
+      padding-left: 15px;
+      font-size: 16px;
+      background-color: transparent;
+}
+
+.input-div select {
+      outline: none;
+      border: none;
+      padding-left: 20px;
+      font-size: 16px;
+      background-color: transparent;
+}
+
+.buttonsDiv {
+      margin-left: 50px;
+      margin-top: 30px;
+}
+
+.submit {
+      padding: 10px 15px;
+      border-radius: 20px;
+      border-color: white;
+      font-size: 14px;
+      margin-left: 100px;
+}
+
+.gray {
+      background-color: aliceblue;
+      color: black;
+}
+
+.submit:hover {
+      background-color: rgb(6, 119, 100);
+      color: white;
+}
+
+.signup {
+      color: white;
+      background-color: rgb(13, 53, 56);
+      text-decoration: none;
+}
+
+.signup:hover {
+      background-color: rgb(6, 119, 100);
+      color: white;
+}
+
+.login {
+      margin-left: 20px;
+}
+
+
+.link:hover {
+      color: rgb(13, 53, 56);
+      border-bottom: 2px solid rgb(13, 53, 56);
+}
+
+.Footer {
+      height: 50vh;
+      background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54043.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-top: 40px;
+      padding-top: 30px;
+      display: flex;
+      justify-content: space-around;
+}
+
+.section1 {
+      margin-left: 70px;
+      padding-top: 30px;
+}
+
+.below {
+      padding-left: 20px;
+      padding-top: 20px;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+}
+
+.below p {
+      padding-top: 10px;
+}
+
+.below p:hover {
+      color: lightcoral;
+      text-decoration: underline;
+}
+
+.below p i {
+      padding-right: 10px;
+      font-size: 14px;
+
+
+}
+
+.section2,
+.section3,
+.section4,
+.section5 {
+      margin-left: 10px;
+      padding-top: 40px;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+}
+
+.section2 h3,
+.section3 h3,
+.section4 h3,
+.section5 h3 {
+      font-size: 18px;
+}
+
+.below2,
+.below3,
+.below4,
+.below5 {
+      padding-top: 10px;
+}
+
+.below2 p,
+.below3 p,
+.below4 p {
+      padding-top: 10px;
+      font-size: 16px;
+}
+
+.below2 p:hover {
+      color: lightcoral;
+      text-decoration: underline;
+      cursor: pointer;
+}
+
+.below3 p .footer-link,
+.below4 p .footer-link {
+      color: white;
+      text-decoration: none;
+}
+
+.below3 p .footer-link:hover,
+.below4 p .footer-link:hover {
+      color: lightcoral;
+      text-decoration: underline;
+      cursor: pointer;
+}
+
+.below4 p:hover {
+      color: lightcoral;
+      text-decoration: underline;
+      cursor: pointer;
+}
+
+.below5 img {
+      margin-left: 10px;
+}
+
+.below5 img:hover {
+      cursor: pointer;
+}
+
+.already {
+      text-align: center;
+      margin-top: 15px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+}
+
+.already .account {
+      text-decoration: none;
+      color: rgb(4, 5, 82);
+}
+
+.account:hover {
+      border-bottom: 1px solid rgb(13, 53, 56);
+}
